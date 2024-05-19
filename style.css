@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+#header {
+    padding: 30px 0;
+    background: rgb(244, 244, 244);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    font-size: 34px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    gap: 65px;
+}
+
+.nav-links a {
+    font-size: 27px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.756);
+}
+
+
+
+/* section BLOCK */
+
+
+
+body {
+    background: rgb(35, 69, 69);
+}
+
+
+.card {
+    width: 800px;
+    height: 410px;
+    background: rgb(12, 120, 120);
+    margin: 110px 180px;
+    border-radius: 30px;
+}
+
+.card h1 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 34px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+
+.inputs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.inputs input {
+    width: 700px;
+    height: 46px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.751);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 137px;
+    margin-top: 40px;
+}
+
+.buttons button {
+    width: 280px;
+    height: 40px;
+    border-radius: 16px;
+    border: none;
+    background: rgb(22, 75, 75);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* HOME BLOCK */
+
+
+.catalog {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 250px;
+    height: 380px;
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.block_img {
+    width: 250px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+
+.text_content {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.block_name {
+    font-size: 18px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lastName {
+    font-size: 19px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.active_block {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.active_block button {
+    border: none;
+    background: none;
+    color: white;
+    font-weight: 600;
+    font-size: 23px;
+    cursor: pointer;
+    /* background: red; */
+}
+
+
+
+/* EDIT CARD */
+
+
+
+.edit {
+    display: none;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    background: rgba(0, 0, 0, 0.445);
+    backdrop-filter: blur(4px)
+}
+
+.card {
+    margin-left: 180px;
+}
